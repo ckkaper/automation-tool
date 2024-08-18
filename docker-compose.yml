@@ -1,4 +1,4 @@
-name: 'identity-app'
+name: 'boilerplate-app'
 version: "3.9"
 
 services:

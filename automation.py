@@ -19,6 +19,6 @@ while True:
 
 print("Running prisma database seed")
 
-subprocess.call(["docker", "exec", "-it", "identity-app-skeleton-svc-1", "node", "./dist/prisma/seed.js"])
+subprocess.call(["docker", "exec", "-it", "boilerplate-app-skeleton-svc-1", "node", "./dist/prisma/seed.js"])
 
 print("Successfully ran prisma seed")

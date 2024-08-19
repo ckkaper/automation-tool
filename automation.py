@@ -22,3 +22,9 @@ print("Running prisma database seed")
 subprocess.call(["docker", "exec", "-it", "boilerplate-app-skeleton-svc-1", "node", "./dist/prisma/seed.js"])
 
 print("Successfully ran prisma seed")
+
+print("Running integration tests")
+
+subprocess.call(["py", "integration-tests.py"])
+
+print("Succssfully ran integration tests")
